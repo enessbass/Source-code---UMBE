@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="ENES BAŞ"> <!--Yazar-->
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="jeopotansiyel.css">
+        <link rel="icon" href="favicon.gif" type="image/x-icon" /> <!--favicon-->
+        <link rel="stylesheet" href="css/font-awesome.css" /> <!--fontawesome    -->
+        <title>Jeopatansiyel - Geometrik İrtifa Hesaplayıcı  - Araçlar - UMBE | Fikirlerinizi Paylaşın ve Keşfedin</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,800&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/3afb46b75b.js" crossorigin="anonymous"></script>
+    <script src="jeopotansiyel.js"></script>
+
+    </head>
+
+<body>
+    <nav>
+        <div class="nav-div-1">
+            
+            <a href="/">Ana Sayfa</a>
+            <a href="/araclar/aerodinamik-2/egiksok/egsok.html  ">Araçlar</a>
+            <a href="1">İletişim</a>
+            <div class="logo"><img src="/logo-2.png" alt="logo"></div>
+        </div>
+        
+    </nav>
+
+   
+
+
+     <div id="container-outmost">
+
+
+
+        <aside id="aside-left">
+          
+            <h1>Araçlar</h1>
+
+            <div class="kutu-sol" onclick="fonk1()">
+                <div class="asdf" >
+                    <p>Aerodinamik 1</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-1" >
+                  <ul>
+                    <li><a href="1">Cp Katsayısı Hesaplayıcı</a></li>
+                  </ul>
+            </div>
+
+            <div class="kutu-sol" onclick="fonk11()">
+                <div class="asdf" >
+                    <p>Aerodinamik 2</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-11" >
+                  <ul>
+                    <li><a href="/araclar/aerodinamik-2/egiksok/egsok.html  ">Eğik Şok Hesaplayıcı</a></li>                
+                  </ul>
+            </div>
+
+            
+            <div class="kutu-sol">
+                <div class="asdf" >
+                 <a href="/araclar/Aerostatik-Kaldırma/aeros.html   "><p>Aerostatik Kuvvet Hesaplayıcı</p></a>
+                </div>  
+            </div>
+
+            
+            <div class="kutu-sol" onclick="fonk2()">
+                <div class="asdf" >
+                    <p>Atalet Moment Hesaplayıcı</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-2" >
+                  <ul>
+                    <li><a href="/araclar/Atalet Moment Hesaplayıcı/T Profil/TT.html">T Profile</a></li>
+                    <li><a href="/araclar/Atalet Moment Hesaplayıcı/L Profil/LL.html">L Profil</a></li>
+                    <li><a href="/araclar/Atalet Moment Hesaplayıcı/C Profil/CC.html">C Profil</a></li>
+                    
+                  </ul>
+            </div>
+
+
+            <div class="kutu-sol" onclick="fonk3()">
+                <div class="asdf" >
+                    <p>Uçuş Mekaniği</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-3"  >
+                  <ul>
+                    <li><a href="/araclar/Uçuş Mekaniği/İniş Uzunluğu/iniş.html">İniş Pisti Uzunluğu</a></li>
+                    <li><a href="/araclar/Uçuş Mekaniği/Kalkış Uzunluğu/kalkis.html">Kalkış Pisti Uzunluğu</a></li>
+                  </ul>
+            </div>
+
+
+            <div class="kutu-sol" >
+                <div class="asdf" >
+                 <a href="/araclar/Jeopotansiyel-Geometrik İrtifa/jeopotansiyel.html"><p>Geometrik - Jeopatansiyel İrtifa</p></a>
+                </div>  
+            </div>
+
+
+            <div class="kutu-sol" >
+                <div class="asdf" >
+                 <a href="/araclar/Hidrostatik Basınç/hidro.html  "><p>Hidrostatik Basınç Hesaplayıcı</p></a>
+                </div>  
+            </div>
+            
+
+           
+
+            
+            
+
+            
+
+        </aside>
+
+        
+
+
+
+        <div id="aside-right" >
+            
+            <div id="center-box">
+
+                <div id="acilama" ><p>Jeopatansiyel-Geometrik İrtifa Hesaplayıcı</p></div>
+
+                
+                <article>
+                    <div id="deger-giris">
+
+                        <form action="">
+                            <div class="kutu" id="jeo">
+                                <span class="spp">Jeopatansiyel İrtifa (m)</span>
+                                <input type="number" placeholder="Jeopatansiyel İrtifayı Girin" id="degjeo" name="myInput">
+                            </div>     
+                            
+                            <div class="kutu" id="geo">
+                                <span class="spp">Geometrik İrtifa (m)</span>
+                                <input type="number" placeholder="Geometrik İrtifayı Girin" id="deggeo" name="myInput">
+                            </div>  
+                            <div class="kutu" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                                <span class="spp">Gezegen Yarıçapı r (m)</span>
+                                <input type="number" value="6356766" placeholder="km" id="rr" name="r" >
+                            </div>  
+
+                
+                        </form>
+
+
+                    </div>
+                    <div class="kutu" id="baa">
+                        <p class="aa" id="etiket"><i class="fa-solid fa-circle-notch"></i></p>
+
+                        <input type="checkbox" id="che" onchange="takas()">
+
+                        <p class="aa" id="a1">Geometrik İrtifa - Jeopatansiyel İrtifa Değişimi</p>
+                        <p class="aa" id="a2">Jeopatansiyel İrtifa - Geometrik İrtifa Değişimi</p>
+
+                    </div>
+                    
+                    <form action="">
+                        <div id="sonuc-ekranı">
+                            <div><p>Sonuç</p></div>
+                            <div class="sonuc" >
+                                <p id="sonjeo">Jeopatansiyel İrtifa   :</p>
+                                <p id="songeo">Geometrik İrtifa   :</p>
+                                
+                                <p id="merkez">0</p><p>metre</p></div>
+                           
+                        </div>
+                    </form>
+                    <div id="buton-1">
+                        <span id="spanov" ><button id="hesapla" onclick="baslat()">Hesapla</button></span>
+                        
+                    </div>
+
+
+                
+
+                    
+                    
+                    <div id="formula">
+                        <div id="zzz">Formül Açıklaması
+
+                        </div>
+                        <div class="img-sd2-2">Lorem, ipsum.</div>
+                        <div id="#aciklama">
+                            <div class="df">hɢ : Geometrik İrtifa</div>
+                            <div class="df">h : Jeopatansiyel İrtifa</div>
+                            <div class="df">r : Gezegen Yarıçapı (m)</div>
+                            
+                        
+                        </div>
+
+                        <div class="seil"><img src="file:///C:/Users/enes1/Desktop/umbe/ara%C3%A7lar/jeopotansiyel-iritfa/FORM.png" alt="ss"></div>
+                        
+                        
+                    </div>
+                    
+                </article>
+            </div>
+
+        </div>
+     </div>
+
+
+
+     
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+    
+
+    <div id="warning-box">
+        <div id="texc">
+            <h1>Lütfen Uygun Çözünürlükte Kullanın</h1>
+        </div>
+        <div id="space">
+            <img src="/uzaayız-1.png" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <div id="foot">
+           
+            <a href="#">
+                <p><i class="fa fa-linkedin-square"></i></p>
+            </a>
+           
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

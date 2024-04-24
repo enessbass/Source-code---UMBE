@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="ENES BAŞ"> <!--Yazar-->
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="iniş.css">
+        <link rel="icon" href="favicon.gif" type="image/x-icon" /> <!--favicon-->
+        <link rel="stylesheet" href="css/font-awesome.css" /> <!--fontawesome    -->
+        <title>İniş Pisti  - Araçlar - UMBE | Fikirlerinizi Paylaşın ve Keşfedin</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,800&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/3afb46b75b.js" crossorigin="anonymous"></script>
+    <script src="iniş.js"></script>
+
+    </head>
+
+<body>
+    <nav>
+        <div class="nav-div-1">
+            
+            <a href="/">Ana Sayfa</a>
+            <a href="/araclar/aerodinamik-2/egiksok/egsok.html  ">Araçlar</a>
+            <a href="#">İletişim</a>
+            <div class="logo"><img src="/logo-2.png" alt="logo"></div>
+        </div>
+        
+    </nav>
+
+   
+
+
+     <div id="container-outmost">
+
+
+
+        <aside id="aside-left">
+          
+            <h1>Araçlar</h1>
+
+            <div class="kutu-sol" onclick="fonk1()">
+                <div class="asdf" >
+                    <p>Aerodinamik 1</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-1" >
+                  <ul>
+                    <li><a href="#">Cp Katsayısı Hesaplayıcı</a></li>
+                  </ul>
+            </div>
+
+            <div class="kutu-sol" onclick="fonk11()">
+                <div class="asdf" >
+                    <p>Aerodinamik 2</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-11" >
+                  <ul>
+                    <li><a href="/araclar/aerodinamik-2/egiksok/egsok.html  ">Eğik Şok Hesaplayıcı</a></li>                
+                  </ul>
+            </div>
+
+            
+            <div class="kutu-sol">
+                <div class="asdf" >
+                 <a href="/araclar/Aerostatik-Kaldırma/aeros.html "><p>Aerostatik Kuvvet Hesaplayıcı</p></a>
+                </div>  
+            </div>
+
+            
+            <div class="kutu-sol" onclick="fonk2()">
+                <div class="asdf" >
+                    <p>Atalet Moment Hesaplayıcı</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-2" >
+                  <ul>
+                    <li><a href="/araclar/Atalet Moment Hesaplayıcı/T Profil/TT.html  ">T Profile</a></li>
+                    <li><a href="/araclar/Atalet Moment Hesaplayıcı/L Profil/LL.html">L Profil</a></li>
+                    <li><a href="/araclar/Atalet Moment Hesaplayıcı/C Profil/CC.html">C Profil</a></li>
+                    
+                  </ul>
+            </div>
+
+
+            <div class="kutu-sol" onclick="fonk3()">
+                <div class="asdf" >
+                    <p>Uçuş Mekaniği</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-3"  >
+                  <ul>
+                    <li><a href="#">İniş Pisti Uzunluğu</a></li>
+                    <li>Kalkış Pisti Uzunluğu</li>
+                  </ul>
+            </div>
+
+
+            <div class="kutu-sol" >
+                <div class="asdf" >
+                 <a href="#"><p>Geometrik - Jeopatansiyel İrtifa</p></a>
+                </div>  
+            </div>
+
+
+            <div class="kutu-sol" >
+                <div class="asdf" >
+                 <a href="/araclar/Hidrostatik Basınç/hidro.html   "><p>Hidrostatik Basınç Hesaplayıcı</p></a>
+                </div>  
+            </div>
+            
+
+           
+
+            
+            
+
+            
+
+        </aside>
+
+        
+
+
+
+        <div id="aside-right" >
+            
+            <div id="center-box">
+
+                <div id="acilama" ><p>İniş Pisti Uzunluğu</p></div>
+
+                <section>
+                    <div id="picture"><img src="file:///C:/Users/enes1/Desktop/site/ara%C3%A7lar/u%C3%A7u%C5%9F%20meakini%C4%9Fi/ini%C5%9F%20pisti/inis2.png" alt="Uçak Pisti"></div>
+                </section>
+                <article>
+                    <div id="deger-giris">
+                        
+                        <form action="">
+                            <div class="kutu">
+                                <span class="spp">Uçağın Ağırlığı W (lb) </span>
+                                <input type="number" placeholder="" id="agir" name="myInput">
+                            </div>
+                            <div class="kutu">
+                                <span class="spp">Kanat Alanı S (ft²)</span>
+                                <input type="number" placeholder="" id="alan">
+                            </div>
+
+                            <div class="kutu">
+                                <span class="spp">Sürükleme Katsayısı (C𝐝₀)</span>
+                                <input type="number" placeholder="" id="Sürükleme">
+                            </div>
+
+                            <div class="kutu">
+                                <span class="spp">C🇱 ​𝚖ₐₓ</span>
+                                <input type="number" placeholder="" id="clmax">
+                            </div>
+
+                            <div class="kutu">
+                                <span class="spp">Yuvarlanma sürtünme katsayısı (μᵣ)</span>
+                                <input type="number" placeholder="" id="yuvarlanma">
+                            </div>
+                            
+                            
+                        </form>
+                        <form action="" >
+                            <div id="oneri">
+                                <div ><p style="color: rgb(104, 1, 1) ; opacity: 1;">μᵣ : Yuvarlanma sürtünme katsayıs tipik olarak;</p></div>
+                                <dir></dir>
+                                <div><p>Kuru beton/Asfalt - 0,02</p></div>
+                                <div><p>Uzun çim - 0,10</p></div>
+                                <div><p>Sert çim/Çakıl - 0,04</p></div>
+                                <div><p>Yumuşak Zemin - 0,10 ila 0,30</p> </div>
+                                <div><p>kuru çim 0.05</p></div>
+
+                            </div>
+                            
+                        </form>
+
+                        
+
+                    </div>
+                    <div id="buton-1">
+                        <span id="spanov" ><button id="hesapla" onclick="hesap()">Hesapla</button></span>
+                        
+                    </div>
+
+                    <div id="sonuc-ekranı">
+                        <div><p>Sonuç</p></div>
+                        <div class="sonuc" ><p>İniş Pisti Uzunluğu :</p><p id="merkez">0</p><p>ft</p></div>
+                       
+                    </div>
+
+                    
+                    
+                    <div id="formula">
+                        <div id="zzz">Formül Açıklaması
+
+                        </div>
+                        <div class="img-sd2-2">Lorem, ipsum.</div>
+                        <div id="#aciklama">
+                            <div class="df">S : Pist Uzunluğu</div>
+                            <div class="df">W​ : Uçağın Ağırığı (Newton)</div>
+                            <div class="df">V🇸𝐭𝐚𝐥𝐥 : Stall Hızı</div>
+                            <div class="df">σ : İzafi Yoğunluk</div>
+                        
+
+                            
+                        
+                        </div>
+
+                        <div><p>Formül</p></div>
+                        <div class="seil"><img src="file:///C:/Users/enes1/Desktop/site/ara%C3%A7lar/u%C3%A7u%C5%9F%20meakini%C4%9Fi/ini%C5%9F%20pisti/%C4%B0N%C4%B0%C5%9EFORM%C3%9CL.png" alt="Formül"></div>
+                        
+
+                    
+                       
+                        
+                    </div>
+                    
+                </article>
+            </div>
+
+        </div>
+     </div>
+
+
+
+     
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+    
+
+    <div id="warning-box">
+        <div id="texc">
+            <h1>Lütfen Uygun Çözünürlükte Kullanın</h1>
+        </div>
+        <div id="space">
+            <img src="/uzaayız-1.png" alt="uzay">
+        </div>
+    </div>
+
+    <footer>
+        <div id="foot">
+           
+            <a href="#">
+                <p><i class="fa fa-linkedin-square"></i></p>
+            </a>
+           
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

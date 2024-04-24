@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="ENES BAŞ"> <!--Yazar-->
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="LL.css">
+        <link rel="icon" href="favicon.gif" type="image/x-icon" /> <!--favicon-->
+        <link rel="stylesheet" href="css/font-awesome.css" /> <!--fontawesome    -->
+        <title>Atalet Moment Hesaplayıcı - Araçlar - UMBE | Fikirlerinizi Paylaşın ve Keşfedin</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,800&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/3afb46b75b.js" crossorigin="anonymous"></script>
+    <script src="LL.js"></script>
+
+    </head>
+
+<body>
+    <nav>
+        <div class="nav-div-1">
+            
+            <a href="file:///C:/Users/enes1/Desktop/site/proje.html">Ana Sayfa</a>
+            <a href="#">Araçlar</a>
+            <a href="#">İletişim</a>
+            <div class="logo"><img src="file:///C:/Users/enes1/Desktop/site/logo-2.png" alt=""></div>
+        </div>
+        
+    </nav>
+
+   
+
+
+     <div id="container-outmost">
+
+
+
+        <aside id="aside-left">
+          
+            <h1>Araçlar</h1>
+
+            <div class="kutu-sol" onclick="fonk1()">
+                <div class="asdf" >
+                    <p>Aerodinamik 1</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-1" >
+                  <ul>
+                    <li><a href="#">Cp Katsayısı Hesaplayıcı</a></li>
+                  </ul>
+            </div>
+
+            <div class="kutu-sol" onclick="fonk11()">
+                <div class="asdf" >
+                    <p>Aerodinamik 2</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-11" >
+                  <ul>
+                    <li><a href="#">Eğik Şok Hesaplayıcı</a></li>                
+                  </ul>
+            </div>
+
+            
+            <div class="kutu-sol">
+                <div class="asdf" >
+                 <a href="#"><p>Aerostatik Kuvvet Hesaplayıcı</p></a>
+                </div>  
+            </div>
+
+            
+            <div class="kutu-sol" onclick="fonk2()">
+                <div class="asdf" >
+                    <p>Atalet Moment Hesaplayıcı</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-2" >
+                  <ul>
+                    <li><a href="#">T Profile</a></li>
+                    <li><a href="#">L Profil</a></li>
+                    <li><a href="#">C Profil</a></li>
+                    
+                  </ul>
+            </div>
+
+
+            <div class="kutu-sol" onclick="fonk3()">
+                <div class="asdf" >
+                    <p>Uçuş Mekaniği</p>
+                    <p><i class="fa-solid fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="gizli-box" id="box-3"  >
+                  <ul>
+                    <li>İniş Pisti Uzunluğu</li>
+                    <li>Kalkış Pisti Uzunluğu</li>
+                  </ul>
+            </div>
+
+
+            <div class="kutu-sol" >
+                <div class="asdf" >
+                 <a href="#"><p>Geometrik - Jeopatansiyel İrtifa</p></a>
+                </div>  
+            </div>
+
+
+            <div class="kutu-sol" >
+                <div class="asdf" >
+                 <a href="#"><p>Hidrostatik Basınç Hesaplayıcı</p></a>
+                </div>  
+            </div>
+            
+
+           
+
+            
+            
+
+            
+
+        </aside>
+
+        
+
+
+
+        <div id="aside-right" >
+            
+            <div id="center-box">
+
+                <div id="acilama" ><p>Atalet Momenti Hesaplayıcı (L Profil)</p></div>
+
+                <section>
+                    <div id="picture"><img src="file:///C:/Users/enes1/Desktop/site/ara%C3%A7lar/Atalet%20Moment%20Hesaplay%C4%B1c%C4%B1/FOTO%C4%9ERAF/LL.png" alt=""></div>
+                </section>
+                <article>
+                    <div id="deger-giris">
+                        <form action="">
+                            <div class="kutu">
+                                <span class="spp">B Yatay bileşeni (mm)</span>
+                                <input type="number" placeholder="" id="byat" name="myInput">
+                            </div>
+                            <div class="kutu">
+                                <span class="spp">C Yatay bileşeni (mm)</span>
+                                <input type="number" placeholder="" id="cyat" name="myInput">
+                            </div>
+                            
+                            
+                            
+                        </form>
+
+                        <form action="">
+                            <div class="kutu">
+                                <span class="spp">A Boyu (mm)</span>
+                                <input type="number" placeholder="" id="aboy">
+                            </div>
+                            <div class="kutu">
+                                <span class="spp">D Boyu (mm)</span>
+                                <input type="number" placeholder="" id="dboy">
+                            </div>
+                           
+                           
+                           
+                            
+                            
+                        </form>
+
+                    </div>
+                    <div id="buton-1">
+                        <span id="spanov" ><button id="hesapla" onclick="funk3()">Hesapla</button></span>
+                        
+                    </div>
+
+                    <div id="sonuc-ekranı">
+                        <div><p>Sonuç</p></div>
+                        <div class="sonuc" ><p class="ppp">Eylemsizlik Momenti (Ｉ𝐱)   :</p><p id="merkez1">0</p><p>mm⁴</p></div>
+                        <div class="sonuc" ><p class="ppp">Eylemsizlik Momenti (Ｉy)  :</p><p id="merkez2">0</p><p>mm⁴</p></div>
+                        <div class="sonuc" ><p class="ppp">Eylemsizlik Yarıçapı (ix)    :</p><p id="merkez3">0</p><p>mm</p></div>
+                        <div class="sonuc" ><p class="ppp">Eylemsizlik Yarıçapı (iy)    :</p><p id="merkez4">0</p><p>mm</p></div>
+                        <div class="sonuc" ><p class="ppp">Eylemsizlik Yarıçapı (i𝟎)    :</p><p id="merkez5">0</p><p>mm</p></div>
+                        <div class="sonuc" ><p class="ppp">Çarpım Atalet Momenti (Ｉyx)   :</p><p id="merkez6">0</p><p>mm</p></div>
+                        
+                        <div class="sonuc" ><p class="ppp">Asal Eylemszilik Momenti 1 (max)   :</p><p id="merkez7">0</p><p>mm⁴</p></div>
+                        <div class="sonuc" ><p class="ppp">Asal Eylemszilik Momenti 2 (min)  :</p><p id="merkez8">0</p><p>mm⁴</p></div>
+                        
+                    </div>
+
+                    
+                    
+                    <div id="formula">
+                        <div id="zzz">Formül Açıklaması
+
+                        </div>
+                        <div class="img-sd2-2"><img src="file:///C:/Users/enes1/Desktop/site/ara%C3%A7lar/Atalet%20Moment%20Hesaplay%C4%B1c%C4%B1/FORM%C3%9CLLER/FORM%C3%9CL.png" alt=""></div>
+                        <div id="#aciklama">
+                            <div class="df">UA1 : Birinci parçanın geometrik merkezi (xm) ile cismin toplam merkezi arasındaki fark</div>
+                            <dir></dir>
+                            <div class="df">UB1 : Birinci parçanın geometrik merkezi (ym) ile cismin toplam merkezi arasındaki fark</div>
+                            <dir></dir>
+                            <div class="df">NOT = Eğer eksen takımlarından birisi ağırlık merkezinden geçerse veya simetri ekseniyseＩ𝐱y = 0  olur</div>
+                           <dir></dir>
+                        
+                        </div>
+
+                        <div><a href="https://cdn.istanbul.edu.tr/FileHandler2.ashx?f=[statik]-11---atalet-momenti---cozumlu-ornekler_637123128844329610.pdf">Örnek Soru İçin Tıklayın</a></div>
+                       
+                        
+                    </div>
+                    
+                </article>
+            </div>
+
+        </div>
+     </div>
+
+
+
+     
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+    
+
+    <div id="warning-box">
+        <div id="texc">
+            <h1>Lütfen Uygun Çözünürlükte Kullanın</h1>
+        </div>
+        <div id="space">
+            <img src="file:///C:/Users/enes1/Desktop/site/uzaay%C4%B1z-1.png" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <div id="foot">
+           
+            <a href="#">
+                <p><i class="fa fa-linkedin-square"></i></p>
+            </a>
+           
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
