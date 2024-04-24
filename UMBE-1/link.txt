@@ -1,0 +1,23 @@
+/araclar/aerodinamik-2/egiksok/egsok.html                          eğik şoka giden
+
+/araclar/Atalet Moment Hesaplayıcı/L Profil/LL.html    
+/araclar/Atalet Moment Hesaplayıcı/T Profil/TT.html                atalet moment
+/araclar/Atalet Moment Hesaplayıcı/C Profil/CC.html
+
+
+/araclar/Hidrostatik Basınç/hidro.html                             hidrostatik
+/araclar/Aerostatik-Kaldırma/aeros.html                            aerostatik
+
+/araclar/Uçuş Mekaniği/Kalkış Uzunluğu/kalkis.html                 kalkış pisti
+/araclar/Uçuş Mekaniği/İniş Uzunluğu/iniş.html                     iniş pisti
+
+/araclar/jeo-geo/jeopotansiyel.html         jeo - geo hesap
+
+/araclar/Cp Hesaplayıcı/cp.html             cp hesaplayıcı
+
+
+/iletisim/contac.html 
+
+/iletisim/cv-detay/enes-bas/enes.bas.html
+
+https://www.linkedin.com/in/enes-ba%C5%9F-6b3bb4232/
