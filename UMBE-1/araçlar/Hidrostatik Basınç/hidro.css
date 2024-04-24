@@ -1,0 +1,506 @@
+                        /* Genel Ayarlamalar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+ul li a{
+    color: rgb(50, 50, 50);
+}
+
+                            /** **/
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+   
+    
+    
+}
+
+
+.nav-div-1{
+    width: 100%;
+    margin-left: 200px;
+    display: flex;
+    
+    
+    background-color: rgb(91, 93, 82);
+    align-items: center;
+    
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: rgb(244, 244, 244);
+    text-align: center;
+    padding: 26px 25px;
+    text-decoration: none;
+   
+    margin-left: 30px;
+    width: 80px;
+
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+
+.logo{
+
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+
+    position: relative;
+    left: -580px;
+    
+}
+    .logo img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            margin-left: 20px;
+            
+        }
+                             /** **/
+
+
+
+
+
+
+
+                         /** footeerr **/
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    
+    width: 10px;
+    height: 0px;
+    margin: 5px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    color: white;
+
+    font-size: 30px;
+}
+
+
+
+
+
+
+                               /** **/
+
+
+
+
+
+
+
+
+
+
+
+
+                           /* Kosullar */
+
+  #warning-box{
+      
+   
+        width: 100%;
+        height: 600px;
+ 
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    
+       
+  }
+
+ #space{
+   
+    width: 400px;
+    height: 400px;
+   
+
+    
+ }
+
+
+ @media screen and (max-width: 1100px) {
+    
+    #warning-box{
+      
+   
+        width: 100%;
+        height: 600px;
+ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+
+
+        position: relative;
+        bottom: 1900px;
+
+        color: black;
+        
+    
+       
+  }
+  #warning-box h1{
+    color: black;
+  }
+    #container-outmost {
+        display: none;
+    }
+    #aside-left {
+        display: none;
+    }
+    #aside-right {
+        display: none;
+    }
+    #center-box {
+        display: none;
+    }
+    section{
+        display: none;
+    }
+    article{
+        display: none;
+    }
+    
+  
+    
+    
+  }
+ 
+
+
+ 
+
+                              /** **/
+
+
+
+
+#container-outmost{
+    width: 100%;
+    height: 2000px;
+
+
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+     #aside-left{
+        width: 300px;
+        height: 100%;
+        background: linear-gradient(-90deg , #848484 ,rgb(164, 164, 164));
+        border-left: 5px solid rgb(113, 158, 184);
+        
+      
+     }
+
+     #aside-right{
+        width: 1000px;
+        height: 100%;
+        
+
+        display: flex;
+        justify-content: center;
+    
+     }
+     
+
+        #center-box{
+          
+            width: 80%;
+            height: 400px;
+
+            position: relative;
+            margin-top: 50px;        
+        }
+              section{
+                width: 100%;
+                height: 100%;
+              
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+              }
+                      #picture{
+                        width: 500px;
+                        height: 300px;
+                        background-color: rgb(191, 191, 30);
+                      }
+              article{
+                width: 100%;
+                
+                
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+              }
+                        #deger-giris{
+                            width: 100%;
+                            
+
+                            display: flex;
+                            justify-content: center;
+                            display: flex;     
+                            background-color: #f8f8f8;                      
+                                                        
+                        }
+
+                                     .spp{
+                                        margin-top: 30px;
+                                        font-size: 25px;
+                                        font-family: 'Arial', sans-serif;
+                                        font-size: 18px; /* Font büyüklüğü */
+                                        line-height: 1.5;
+                                        color: #838383; /* Font rengi */
+                                        letter-spacing: 0.5px; /* Harf aralığı */
+                                        
+                                            }
+                                     input{
+                                        display: block;
+                                        margin-top: 6px;
+                                        margin-bottom: 6px;
+                                        font-family: 'Arial', sans-serif;
+                                        font-size: 18px; /* Font büyüklüğü */
+                                        line-height: 1.5;
+                                        color: #336699; /* Font rengi */
+                                        letter-spacing: 0.5px; /* Harf aralığı */
+                                     }
+                                     
+                                     form{
+                                        padding: 50px;
+                                        
+                                     }
+
+
+
+
+                                    
+                        #formula{
+                            width: 80%;
+                            
+                            
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            background-color: #f8f8f8;
+                            
+                            
+                        }
+                                .img-sd2-2{
+                                      background-color: #7752c0;
+                                      width: 60%;
+                                      height: 300px;
+                                      margin-bottom: 30px;
+                                      display: none;
+                                    
+                                }
+
+                                        .df{
+                                            width: 600px;
+                                            height: 30px;
+                                            border-left:2px solid rgb(113, 158, 184) ;
+                                            margin: 10px;
+                                            
+                                            padding-left: 10px;
+                                                                                      
+                                           }
+                                           #zzz{
+                                            margin: 15px;
+                                           }
+                                    
+
+                        #buton-1{
+                          
+                            width: 100%;
+                            height: 80px;
+                           
+
+                            margin-top: 30px;
+
+                            display: flex;
+                            justify-content: flex-end;
+                            
+
+                        }
+                                    #hesapla{
+                                         color: rgb(255, 255, 255);
+                                         width: 200px;
+                                         height: 30px;
+                                         background-color: rgb(113, 158, 184);
+                                         font-size: 20px;
+                                         border-color: #ffffff;
+
+                                         cursor: pointer;
+                                         
+                                    }
+                                    #spanov{
+                                       margin-right: 30px;
+                                    }
+
+
+
+
+
+
+
+                                       /* hazır kod */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+                                        /*      */
+
+
+
+
+             /*       Yan Bar Çubuğu Tasasrımı   */
+
+h1{
+    color: #ffffff;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(232, 232, 232);
+}
+.kutu-sol{
+    width: 100%;
+    height: 40px;
+    background-color: #d0d0d0;
+    border-bottom: 2px solid rgb(113, 158, 184);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+      .asdf{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: Arial, sans-serif;
+        
+      }
+      .asdf p{
+        margin: 20px;
+        color: rgb(75, 75, 75);
+      }
+#gizli-box{
+    text-align: center;
+    display: inline-block;
+    background-color: #524271;
+    
+}
+         .gizli-box{
+            width: 100%;
+            text-decoration: none;
+            align-items: center;
+            display: none;
+            background-color: rgb(208, 207, 207);
+         }
+         .gizli-box ul li{
+            color: rgb(67, 67, 67);
+            text-decoration: none;
+            list-style-type: none;
+            
+            margin-bottom: 15px;
+            padding: 5px;
+            border-left: 3px solid rgb(113, 158, 184);
+            
+            
+         }
+         
+ 
+/*   açıklama alanı başlık */
+
+#acilama{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*    sonuc ekranı  */
+
+#sonuc-ekranı{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(216, 216, 216);
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.sonuc{
+    max-height: 100%;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(113, 158, 184);
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.sonuc p {
+    color: white;
+    margin: 30px;
+}
+
+/*     formül ekranı     */
